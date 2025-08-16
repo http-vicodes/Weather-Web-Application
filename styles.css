@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*  CSS property that sets how the browser calculates an element's total width and height. With border-box, the width and height include the content, padding, and border. */
+}
+
+body {
+    background-image: url(https://bit.ly/4bcK1Hc);
+    background-repeat: no-repeat; /* CSS property that sets whether/how a background image will be repeated */
+    background-size: cover; /*  CSS property sets the size of the element's background image. In this case, it ensures that it covers the entire viewport */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh; /* CSS property that sets the height of an element to 100% of the viewport height */
+}
+
+main {
+    background-color: rgba(227, 193, 173, 0.85);
+    position: relative; /* CSS property that sets the position of an element relative to its normal position */
+    top: 30%;
+    border: 1px solid;
+    border-radius: 5px;
+    min-width: 540px;
+    max-width: 50%;
+    margin: auto;
+    padding: 2em;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
