@@ -65,10 +65,10 @@ async function fetchWeather() {
 
     }
 
+    document.getElementById("search").value = "";
+    const geocodeData = await getLonAndLat();
+    getWeatherData(geocodeData.lon, geocodeData.lat );
+
 
 }
-document.getElementById("search").value = "";
-const geocodeData = await getLonAndLat();
-getWeatherData(geocodeData.lon, geocodeData.lat());
-
 
