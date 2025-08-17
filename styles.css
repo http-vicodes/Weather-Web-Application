@@ -43,6 +43,18 @@ h1 {
     padding: 10px;
     font-size: 16px;
     width: 5em;
-    cursor: pointer;
+    cursor: pointer; /*the cursor CSS property enstamblishes how the mouse should react when it is hovering over said element. In this case, the mouse will become a pointer.*/
+
 }
 
+#weather-wrapper {
+    display: flex; /*The display CSS property either sets the layout of the target element (block or inline block) or the one of its children (grid, flex...). In this case, flex, the children are set out to grow flexibly around the space available in the element wrapper. */
+    flex-direction: column; /*sets how flex items are placed in the flex container*/
+    place-items: center; /* aligns items along both the block and inline directions at once. It sets the values of the align-items and justify-items properties.*/
+    justify-content: space-between; /*defines how the browser distributes space between and around content items*/
+}
+
+#weather-search {
+    display: flex;
+    width: 50%;
+}
